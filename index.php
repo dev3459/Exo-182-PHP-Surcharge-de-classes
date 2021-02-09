@@ -15,6 +15,23 @@ $humain->setNom("Votre nom");
 $dragon = new Dragon();
 $dragon->setNom("");
 
+$princesse = new Princesse();
+echo $princesse->getId();
+echo $princesse->getNom();
+$princesse->walkRight();
+$princesse->setId("10");
+$princesse->setNom("test");
 
+$princesse = new Princesse();
+echo $princesse->getId();
+echo $princesse->getNom();
+$princesse->walkRight();
+$princesse->setId("10");
+$princesse->setNom("test");
 
-
+$sorcier = new Sorcier();
+echo $sorcier->getId();
+echo $sorcier->getNom();
+$sorcier->walkRight();
+$sorcier->setId("10");
+$sorcier->setNom("test");
